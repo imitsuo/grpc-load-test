@@ -18,8 +18,7 @@ class TSGrpcUser(grpc_user.GrpcUser):
     # channel = get_channel()
     # stub = PipelineServiceStub(channel)
     # host = os.getenv("TS-GRPC")
-    # host = "localhost:50051"
-    host = "https://run-4i-stg-4casthub-ts-grpc-ht3a3o3bea-ue.a.run.app"
+     host = "localhost:50051"
     token = generate_id_token()
     stub_class = PipelineServiceStub
 
