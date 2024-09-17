@@ -1,0 +1,6 @@
+locust==2.31.6
+grpcio-tools==1.59.3
+protobuf==4.25.1
+google-auth==2.24.0
+python-dotenv==1.0.0
+grpc-interceptor==0.15.4
